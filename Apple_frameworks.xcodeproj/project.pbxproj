@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		9D3B9B672B306BB500E73AB4 /* Apple_frameworksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3B9B662B306BB500E73AB4 /* Apple_frameworksApp.swift */; };
-		9D3B9B692B306BB500E73AB4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3B9B682B306BB500E73AB4 /* ContentView.swift */; };
 		9D3B9B6B2B306BB600E73AB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D3B9B6A2B306BB600E73AB4 /* Assets.xcassets */; };
 		9D3B9B6E2B306BB600E73AB4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D3B9B6D2B306BB600E73AB4 /* Preview Assets.xcassets */; };
 		9D3B9B782B306BB700E73AB4 /* Apple_frameworksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3B9B772B306BB700E73AB4 /* Apple_frameworksTests.swift */; };
 		9D3B9B822B306BB700E73AB4 /* Apple_frameworksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3B9B812B306BB700E73AB4 /* Apple_frameworksUITests.swift */; };
 		9D3B9B842B306BB700E73AB4 /* Apple_frameworksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3B9B832B306BB700E73AB4 /* Apple_frameworksUITestsLaunchTests.swift */; };
+		9D3B9B912B306BE900E73AB4 /* Framework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3B9B902B306BE900E73AB4 /* Framework.swift */; };
+		9D699D172B307BBB00A01342 /* FrameworkGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D699D162B307BBB00A01342 /* FrameworkGridView.swift */; };
+		9D699D192B30876500A01342 /* Framework_logo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D699D182B30876500A01342 /* Framework_logo.swift */; };
+		9D699D1B2B3087D900A01342 /* Framework_details.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D699D1A2B3087D900A01342 /* Framework_details.swift */; };
+		9D699D1D2B308E8200A01342 /* AFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D699D1C2B308E8200A01342 /* AFButton.swift */; };
+		9D699D1F2B30930B00A01342 /* FrameWork_ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D699D1E2B30930B00A01342 /* FrameWork_ViewModel.swift */; };
+		9D699D212B30992B00A01342 /* Safari_view.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D699D202B30992B00A01342 /* Safari_view.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +42,6 @@
 /* Begin PBXFileReference section */
 		9D3B9B632B306BB500E73AB4 /* Apple_frameworks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Apple_frameworks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D3B9B662B306BB500E73AB4 /* Apple_frameworksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_frameworksApp.swift; sourceTree = "<group>"; };
-		9D3B9B682B306BB500E73AB4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9D3B9B6A2B306BB600E73AB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D3B9B6D2B306BB600E73AB4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9D3B9B732B306BB700E73AB4 /* Apple_frameworksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Apple_frameworksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +49,13 @@
 		9D3B9B7D2B306BB700E73AB4 /* Apple_frameworksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Apple_frameworksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D3B9B812B306BB700E73AB4 /* Apple_frameworksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_frameworksUITests.swift; sourceTree = "<group>"; };
 		9D3B9B832B306BB700E73AB4 /* Apple_frameworksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_frameworksUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9D3B9B902B306BE900E73AB4 /* Framework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Framework.swift; sourceTree = "<group>"; };
+		9D699D162B307BBB00A01342 /* FrameworkGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridView.swift; sourceTree = "<group>"; };
+		9D699D182B30876500A01342 /* Framework_logo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Framework_logo.swift; sourceTree = "<group>"; };
+		9D699D1A2B3087D900A01342 /* Framework_details.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Framework_details.swift; sourceTree = "<group>"; };
+		9D699D1C2B308E8200A01342 /* AFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFButton.swift; sourceTree = "<group>"; };
+		9D699D1E2B30930B00A01342 /* FrameWork_ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameWork_ViewModel.swift; sourceTree = "<group>"; };
+		9D699D202B30992B00A01342 /* Safari_view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Safari_view.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +106,14 @@
 		9D3B9B652B306BB500E73AB4 /* Apple_frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9D3B9B902B306BE900E73AB4 /* Framework.swift */,
 				9D3B9B662B306BB500E73AB4 /* Apple_frameworksApp.swift */,
-				9D3B9B682B306BB500E73AB4 /* ContentView.swift */,
+				9D699D162B307BBB00A01342 /* FrameworkGridView.swift */,
+				9D699D1E2B30930B00A01342 /* FrameWork_ViewModel.swift */,
+				9D699D1A2B3087D900A01342 /* Framework_details.swift */,
+				9D699D202B30992B00A01342 /* Safari_view.swift */,
+				9D699D1C2B308E8200A01342 /* AFButton.swift */,
+				9D699D182B30876500A01342 /* Framework_logo.swift */,
 				9D3B9B6A2B306BB600E73AB4 /* Assets.xcassets */,
 				9D3B9B6C2B306BB600E73AB4 /* Preview Content */,
 			);
@@ -257,8 +275,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D3B9B692B306BB500E73AB4 /* ContentView.swift in Sources */,
+				9D699D1F2B30930B00A01342 /* FrameWork_ViewModel.swift in Sources */,
+				9D699D172B307BBB00A01342 /* FrameworkGridView.swift in Sources */,
+				9D699D192B30876500A01342 /* Framework_logo.swift in Sources */,
+				9D3B9B912B306BE900E73AB4 /* Framework.swift in Sources */,
+				9D699D212B30992B00A01342 /* Safari_view.swift in Sources */,
 				9D3B9B672B306BB500E73AB4 /* Apple_frameworksApp.swift in Sources */,
+				9D699D1D2B308E8200A01342 /* AFButton.swift in Sources */,
+				9D699D1B2B3087D900A01342 /* Framework_details.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
