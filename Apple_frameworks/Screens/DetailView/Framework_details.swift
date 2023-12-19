@@ -18,18 +18,9 @@ struct Framework_details: View {
 
     var body: some View {
         VStack {
-            HStack{
-                Spacer()
-                Button{
-                    isShowingDetails = false
-                }label: {
-                    Image(systemName: "xmark")
-                        .foregroundColor(Color(.label))
-                        .imageScale(.large)
-                        .frame(width: 44, height: 44)
-                }
-            }
-            .padding()
+            
+            X_button(isShowingDetails: $isShowingDetails)
+            
             Spacer()
             Framework_logo(framework: framework)
             
