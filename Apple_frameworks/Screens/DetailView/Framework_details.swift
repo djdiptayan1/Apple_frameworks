@@ -8,35 +8,37 @@
 import Foundation
 import SwiftUI
 
-
 struct Framework_details: View {
-    
     @State private var showSafari = false
-    
+
     var framework: Framework
-    @Binding var isShowingDetails:Bool
+    @Binding var isShowingDetails: Bool
 
     var body: some View {
         VStack {
-            
             X_button(isShowingDetails: $isShowingDetails)
-            
+
             Spacer()
             Framework_logo(framework: framework)
-            
+
             Text(framework.desc)
                 .font(.body)
                 .padding()
-            
+
             Spacer()
             Button(action: {
-                        showSafari.toggle()
-                    }) {
-                        AFButton(title: "Know More")
-                    }
-                    .sheet(isPresented: $showSafari) {
-                        Safari_view(url: URL(string: framework.URL)!)
-                    }
+                showSafari.toggle()
+            }) {
+                AFButton(title: "Know More")
+            }
+            .sheet(isPresented: $showSafari) {
+                if let url = URL(string: framework.URL) {
+                    Safari_view(url: url)
+                } else {
+                    // Handle invalid URL
+                    Text("Invalid URL")
+                }
+            }
         }
     }
 }
